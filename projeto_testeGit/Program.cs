@@ -12,7 +12,16 @@ namespace projeto_testeGit
         {
             Console.WriteLine("Olá Mundo!");
             Console.WriteLine("Bom dia!");
-            Console.WriteLine("Como você está?");
+            Console.WriteLine("Você está bem?");
+            string resp = Console.ReadLine();
+            if (resp == "sim")
+            {
+                Console.WriteLine("Que bom!");
+            }
+            else
+            {
+                Console.WriteLine("O que houve?");
+            }
             Console.ReadLine();
         }
     }
